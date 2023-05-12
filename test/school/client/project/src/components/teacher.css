@@ -1,0 +1,73 @@
+.prof__img{
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7nK6WlNbe35oslg2Iz2RbI1v2RAAe4vyy3g&usqp=CAU');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+margin: 0;
+padding: 0;
+}
+
+h1{
+    text-align: center;
+     color: black;
+     font-size: 48px;
+     margin-top: 20px;
+     transition: color 0.3s ease;
+}
+
+h3{
+    text-align: center;
+    color: black;
+    font-size: 48px;
+    transition: color 0.3s ease;
+    text-decoration-line: underline;
+
+}
+
+h3:hover{
+    color:darkgrey
+}
+h1:hover{
+    color:darkgrey
+}
+
+.hola{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.batouna{
+   
+    height: 50px;
+  
+    border-color: black;
+    width: 320px;
+  
+   font-size: 25px;
+   padding-left: 10px;
+   margin-top: 25px;
+}
+
+#loula{
+    margin-top: 50px;
+}
+.batouna:hover{
+    background-color: #f3ca20;
+    border: none;
+    color: rgb(22, 15, 15);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 5px;
+}

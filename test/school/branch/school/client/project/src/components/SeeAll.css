@@ -1,0 +1,52 @@
+.course{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .course{
+    width: 700px;
+  height: auto;
+  background-color: rgb(252, 253, 248);
+  border: 2px solid black;
+  margin: 10px auto; /* set left and right margins to auto */
+  display: flex;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .course h4{
+        margin: 0px;
+    
+    }
+
+  .tyty{
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7nK6WlNbe35oslg2Iz2RbI1v2RAAe4vyy3g&usqp=CAU');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+margin: 0;
+padding: 0;
+  }
+
+  h1{
+    text-align: center;
+    color: black;
+    font-size: 48px;
+    margin-top: 20px;
+    transition: color 0.3s ease;
+}
+
+h1:hover{
+    color:darkgrey
+}
+
+.box {
+  border: 2px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 20px;
+  background-color: #f3ca20;
+}
